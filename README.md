@@ -1,1 +1,2 @@
 # selenium_portfolio
+In this repository I show individual smaller or larger personal projects in Python with the Selenium module. The projects are included simplistically outside the folder structure on purpose. Thus, each .py file is a single project that demonstrates different levels of competence with the module. If time permits, I would like to come up with unit tests for each elaboration as well.
