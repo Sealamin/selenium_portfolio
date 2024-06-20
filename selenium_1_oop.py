@@ -18,7 +18,7 @@ class ProductScraper:
         return product_name[0].text
     
     def get_product_price(self):
-        product_price = product_name = WebDriverWait(self.driver, 10).until(
+        product_price = WebDriverWait(self.driver, 10).until(
 
             EC.presence_of_all_elements_located((By.CLASS_NAME, "value"))
 
