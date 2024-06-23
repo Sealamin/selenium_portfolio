@@ -21,7 +21,7 @@ class ProductScraper:
 
         if not pattern.match(url):
 
-            raise ValueError("Nejedná se validní odkaz.")
+            raise ValueError("Nejedná se o validní odkaz.")
 
         return url
     
@@ -55,7 +55,7 @@ class ProductScraper:
             product_price = self.get_product_price()
             print(f"{product_name} stojí {product_price} Kč.")
         except Exception as e:
-             raise Exception("Nepodařilo se zaanalyzovat produktu v odkaze.") from e
+             raise Exception("Nepodařilo se zaanalyzovat produkt v odkaze.") from e
         finally:
             self.driver.quit()
     
